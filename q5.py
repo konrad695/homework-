@@ -1,0 +1,6 @@
+pizzahave = input('How  many slices of pizza do you have?')
+pizzahave = float(pizzahave)
+pizzaeaten = input('how many slices of pizza have you eaten?')
+pizzaeaten = float(pizzaeaten)
+result = (pizzahave - pizzaeaten)
+print(result, 'slices are left')

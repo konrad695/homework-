@@ -1,0 +1,6 @@
+number1 = input(' write a number ')
+number1 = float(number1)
+number2 = input(' write another number' )
+number2 = float(number2)
+result = (number1 + number2)
+print(result)
