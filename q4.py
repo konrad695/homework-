@@ -1,9 +1,18 @@
-num1 = input('write a number')
-num1 = float(num1)
-num2 = input('write a second number')
-num2 = float(num2)
-num3 = input('write a third number')
-num3 = float(num3)
-result = ((num1 + num2)*num3)
-print('The answer is', result)
- 
+'''
+Author: konrad
+Date: 3 September 2025
+Description: If, else, elif excercise
+
+'''
+colour = input('what is your favourite colour ')
+colour = str(colour)
+if(colour == 'RED') or (colour == 'Red') or (colour == 'red'):
+    print('i like the colour red too')
+else:
+    print('i dislike', colour, ', i prefer red')
+
+
+
+
+
+
