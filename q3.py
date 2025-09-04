@@ -1,6 +1,15 @@
-number1 = input(' write a number ')
-number1 = float(number1)
-number2 = input(' write another number' )
-number2 = float(number2)
-result = (number1 + number2)
-print(result)
+'''
+Author: konrad
+Date: 3 September 2025
+Description: If, else, elif excercise
+
+'''
+
+num = input('write a number between 10 and 20')
+num = float(num)
+if(num<=10) and (num<=20):
+    print('thank you')
+else:
+    print('incorrect value entered')
+    
+    
